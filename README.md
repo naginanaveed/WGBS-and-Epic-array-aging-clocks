@@ -1,7 +1,5 @@
 # Epigenetics & Aging Clocks — Combined Project README
 
-> This README covers two independent bioinformatics projects completed as part of the **Special Topics in Bioinformatics** course at NUST-SINES.  
-> Each project is documented in its own section with full input, tools, workflow, output, and results.
 
 ---
 
@@ -33,9 +31,6 @@
 # Part 1 — Galaxy WGBS DNA Methylation Analysis
 
 > **Tutorial Source:** [Galaxy Training Network — DNA Methylation Data Analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/methylation-seq/tutorial.html)  
-> **Reference Paper:** Lin et al. 2015 — Breast Cancer Methylome Study  
-> **Platform:** [Galaxy](https://usegalaxy.eu) (web-based, no coding required)  
-> **Estimated Time:** ~3 hours
 
 ---
 
@@ -215,17 +210,27 @@ DNA methylation — the addition of a methyl group to the 5th carbon of cytosine
 - Ideally flat across the read — indicates no systematic bias
 - Edge artifacts at positions 0–5 or 145–150 indicate trimming is needed
 - In this dataset: distribution is approximately uniform; ±5% variation is acceptable
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/87f29d17-9351-4fb0-8e1c-3bb0fda85bdd" />
 
 ### Methylation Profile Plot
 - Signal computed around CpG island centers (±2 kb)
 - Normal breast tissue (NB1, NB2): **low methylation at CpG islands** (as expected — CpG islands are typically unmethylated at active promoters)
 - Cancer lines (BT126, BT198, MCF7): **elevated methylation at CpG islands** → consistent with promoter hypermethylation silencing tumor suppressor genes
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b0cf5f66-ec12-40d9-9515-095fb31c79f9" />
+
+
 ### DMR Analysis (Metilene)
 - Identifies genomic intervals that are significantly more/less methylated between conditions
 - Output BED file contains: chromosome, start, end, q-value, mean methylation difference
 
 ---
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/deeb6c3b-dbc4-4846-923c-f1f441795502" />
+
+---
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bf1647f7-fc7f-490f-acfd-2ce7240e7e90" />
+
+
 
 ## 1.8 Key Findings
 

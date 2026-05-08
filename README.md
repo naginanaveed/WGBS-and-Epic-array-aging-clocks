@@ -1,4 +1,4 @@
-# Epigenetics & Aging Clocks — Combined Project README
+# Epigenetics & Aging Clocks 
 
 
 ---
@@ -389,6 +389,13 @@ Eight clocks spanning two generations were benchmarked:
 
 Shows inter-clock agreement. High correlation between clocks means they capture the same biological signal. Low correlation (e.g. DunedinPACE vs 1st-gen) reveals distinct biological targets.
 
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e42cfc22-6525-4fec-a391-4525817e71f5" />
+
+---
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6b1acffd-44c2-44e0-8603-18fcf4853a57" />
+
+
 ---
 
 ### Visualization 3 & 4 — Age Deviation Heatmap (one per dataset)
@@ -401,6 +408,12 @@ Shows inter-clock agreement. High correlation between clocks means they capture 
 | **Files** | `heatmap_GSE40279.png`, `heatmap_GSE41169.png` |
 
 Reveals whether certain clocks systematically over- or under-predict age, and whether specific samples show age acceleration patterns (e.g. cancer or psychiatric patients).
+
+
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/af4ec5cf-1cba-42a7-ab2d-4fe27bdda400" />
+---
+
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/2e772425-82ad-4f73-8b60-8fe82d02218f" />
 
 ---
 
@@ -415,6 +428,11 @@ Reveals whether certain clocks systematically over- or under-predict age, and wh
 
 For Dataset 2: controls (circles) and patients (triangles) are color-coded. Patients appear systematically above the regression line — indicating epigenetic age acceleration in schizophrenia.
 
+
+<img width="1926" height="985" alt="image" src="https://github.com/user-attachments/assets/1916d358-cb81-4bed-a1c6-49f4693b36e0" />
+---
+<img width="1911" height="957" alt="image" src="https://github.com/user-attachments/assets/466bb48a-3559-46a3-a9eb-6f1408b11e2a" />
+
 ---
 
 ### Visualization 7 — Cross-Dataset Pearson r Bar Chart
@@ -426,6 +444,9 @@ For Dataset 2: controls (circles) and patients (triangles) are color-coded. Pati
 | **File** | `pearson_bar_comparison.png` |
 
 Direct side-by-side comparison of each clock's correlation performance in both datasets.
+
+
+<img width="1420" height="574" alt="image" src="https://github.com/user-attachments/assets/74f64ae0-36ee-4389-b987-d79fdc21347a" />
 
 ---
 

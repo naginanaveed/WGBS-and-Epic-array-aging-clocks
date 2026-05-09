@@ -513,4 +513,4 @@ With N=95 in GSE41169, Pearson r estimates are noisier than in GSE40279 (N=656).
 
 ---
 
-*README prepared for Special Topics in Bioinformatics — NUST-SINES*
+
